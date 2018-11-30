@@ -1,11 +1,6 @@
 
 const actionTypes = {
-    CURRENTUSERUID: 'CURRENTUSERUID',
-    CURRENTUSER: 'CURRENTUSER',
-    PRODUCTS : 'PRODUCTS',
-    ALLPRODUCTS : 'ALLPRODUCTS',
-    SLIDER : 'SLIDER'
-
+    // CURRENTUSER: 'CURRENTUSER',
 }
 
 export default actionTypes

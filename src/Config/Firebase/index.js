@@ -1,12 +1,14 @@
 import * as firebase from 'firebase'
 
 var config = {
-    apiKey: "AIzaSyCBZPX5G7bhShH2HM_x2qyR9qNzTNd7HW4",
-    authDomain: "bulb-11601.firebaseapp.com",
-    databaseURL: "https://bulb-11601.firebaseio.com",
-    projectId: "bulb-11601",
-    storageBucket: "bulb-11601.appspot.com",
-    messagingSenderId: "1057944995781"
-  };
-  firebase.initializeApp(config);
-  export default firebase
+  apiKey: "AIzaSyBKep5nfVTe4k5vcOLx_0OW9qNiuPuJFhc",
+  authDomain: "hackathon2k18-f39bb.firebaseapp.com",
+  databaseURL: "https://hackathon2k18-f39bb.firebaseio.com",
+  projectId: "hackathon2k18-f39bb",
+  storageBucket: "hackathon2k18-f39bb.appspot.com",
+  messagingSenderId: "1062247765524"
+};
+firebase.initializeApp(config);
+
+
+export default firebase
