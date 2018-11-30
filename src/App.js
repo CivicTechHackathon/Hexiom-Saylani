@@ -1,24 +1,16 @@
 import React, { Component } from 'react';
-import './App.css';
-
-
+import Routers from './Routes/Router';
+import { Provider } from 'react-redux'
+import store from './store'
 class App extends Component {
-  constructor() {
-    super()
-
-    this.state = {
-
-    }
-  }
 
   render() {
     return (
-      <div className="App">
-
-      </div>
+      <Provider store={store}>
+        <Routers />
+      </Provider>
     );
   }
 }
-
 
 export default App;
