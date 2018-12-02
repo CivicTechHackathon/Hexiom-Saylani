@@ -2,21 +2,15 @@ import actionTypes from '../constant/constant'
 
 
 const INITIAL_STATE = {
-    PRODUCTS : null,
-    ALLPRODUCTS: null
+    ALLFIR: null
 }
 
 export default (states = INITIAL_STATE, action) => {
     switch (action.type) {
-        case actionTypes.PRODUCTS:
+        case actionTypes.ALLFIR:
             return ({
                 ...states,
-                PRODUCTS: action.payload
-            })
-            case actionTypes.ALLPRODUCTS:
-            return ({
-                ...states,
-                ALLPRODUCTS: action.payload
+                ALLFIR: action.payload
             })
         default:
             return states;
